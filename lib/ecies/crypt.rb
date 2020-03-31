@@ -4,7 +4,7 @@ module ECIES
   class Crypt
 
     # The allowed digest algorithms for ECIES.
-    DIGESTS = %w{SHA224 SHA256 SHA384 SHA512}
+    DIGESTS = %w{SHA1 SHA224 SHA256 SHA384 SHA512}
 
     # The allowed cipher algorithms for ECIES.
     CIPHERS = %w{AES-128-CBC AES-192-CBC AES-256-CBC AES-128-CTR AES-192-CTR AES-256-CTR}
